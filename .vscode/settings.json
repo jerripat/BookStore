@@ -1,3 +1,10 @@
 {
-    "python.pythonPath": "C:\\Users\\Jerri\\AppData\\Local\\activestate\\cache\\b0ca41a3\\exec\\python3.BAT"
+    "python.pythonPath": "C:\\Users\\Jerri\\AppData\\Local\\activestate\\cache\\b0ca41a3\\exec\\python3.BAT",
+    "terminal.integrated.shell.windows": "C:\\Users\\Jerri\\AppData\\Roaming\\ActiveState\\bin\\state.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "activate",
+        "--confirm-exit-on-error",
+        "--non-interactive",
+        "--output=simple"
+    ]
 }
