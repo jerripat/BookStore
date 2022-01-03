@@ -13,7 +13,7 @@ def book_detail(request, id):
         book = Book.objects.get(pk=id)
     except:
         raise Http404()
-        return render(request, "book_outlet/book_detail.html", {
+    return render(request, "book_outlet/book_detail.html", {
               "title" :book.title,
               "author" : book.author,
               "rating" : book.rating,
