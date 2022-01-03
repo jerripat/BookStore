@@ -8,11 +8,9 @@ All Books
 
 {% block content %}
     <ul>
-        <li>
-            
-            
-        </li>
-        
-    </ul>
+        {% for book in books %}
+             <li>{{book.title}} (Rating: {{book.rating }})</li>
+            {% endfor %}
+     </ul>
 
 {% endblock %}
