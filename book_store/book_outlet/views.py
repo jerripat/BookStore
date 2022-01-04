@@ -24,7 +24,7 @@ def book_detail(request, slug):
               "title" :book.title,
               "author" : book.author,
               "rating" : book.rating,
-              "is_bestseller" : book.is_bestseller,
+              "bestseller" : book.is_bestseller,
           })  
 
           
